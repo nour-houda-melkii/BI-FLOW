@@ -1,0 +1,1 @@
+python -c "from agents.profiler.agent import run; from agents.profiler.models import ProfileRequest, SourceConfig; r=run(ProfileRequest(business_goal='Analyser le churn', sources=[SourceConfig(name='telco', type='csv', uri='data/telco.csv')])); print(r.model_dump_json(indent=2))"

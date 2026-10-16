@@ -1,0 +1,1997 @@
+{
+  "business_goal": "Analyser le churn",
+  "tables": [
+    {
+      "name": "telco",
+      "source_name": "telco",
+      "row_count": 7043,
+      "column_count": 33,
+      "memory_bytes": 11226052,
+      "sampled": false,
+      "sample_rows": null,
+      "columns": [
+        {
+          "name": "CustomerID",
+          "declared_type": "str",
+          "inferred_type": "string",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 7043,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "3668-QPYBK",
+                  "count": 1
+                },
+                {
+                  "value": "9237-HQITU",
+                  "count": 1
+                },
+                {
+                  "value": "9305-CDSKC",
+                  "count": 1
+                },
+                {
+                  "value": "7892-POOKP",
+                  "count": 1
+                },
+                {
+                  "value": "0280-XJGEX",
+                  "count": 1
+                },
+                {
+                  "value": "4190-MFLUW",
+                  "count": 1
+                },
+                {
+                  "value": "8779-QRDMV",
+                  "count": 1
+                },
+                {
+                  "value": "1066-JKSGK",
+                  "count": 1
+                },
+                {
+                  "value": "6467-CHFZW",
+                  "count": 1
+                },
+                {
+                  "value": "8665-UTDHZ",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          "rare_values": [
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            },
+            {
+              "value": "<PII_MASKED>",
+              "count": 1
+            }
+          ],
+          "is_pii": true,
+          "pii_categories": [
+            "customer_identifier"
+          ],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Count",
+          "declared_type": "int64",
+          "inferred_type": "integer",
+          "semantic_role": "measure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "median": 1.0,
+              "std": 0.0,
+              "q1": 1.0,
+              "q3": 1.0
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Country",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "United States",
+                  "count": 7043
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "State",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "California",
+                  "count": 7043
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "City",
+          "declared_type": "str",
+          "inferred_type": "string",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1129,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "Los Angeles",
+                  "count": 305
+                },
+                {
+                  "value": "San Diego",
+                  "count": 150
+                },
+                {
+                  "value": "San Jose",
+                  "count": 112
+                },
+                {
+                  "value": "Sacramento",
+                  "count": 108
+                },
+                {
+                  "value": "San Francisco",
+                  "count": 104
+                },
+                {
+                  "value": "Fresno",
+                  "count": 64
+                },
+                {
+                  "value": "Long Beach",
+                  "count": 60
+                },
+                {
+                  "value": "Oakland",
+                  "count": 52
+                },
+                {
+                  "value": "Stockton",
+                  "count": 44
+                },
+                {
+                  "value": "Glendale",
+                  "count": 40
+                }
+              ]
+            }
+          },
+          "rare_values": [
+            {
+              "value": "Fresno",
+              "count": 64
+            },
+            {
+              "value": "Long Beach",
+              "count": 60
+            },
+            {
+              "value": "Oakland",
+              "count": 52
+            },
+            {
+              "value": "Stockton",
+              "count": 44
+            },
+            {
+              "value": "Glendale",
+              "count": 40
+            },
+            {
+              "value": "Bakersfield",
+              "count": 40
+            },
+            {
+              "value": "Riverside",
+              "count": 32
+            },
+            {
+              "value": "Berkeley",
+              "count": 32
+            },
+            {
+              "value": "Whittier",
+              "count": 30
+            },
+            {
+              "value": "Pasadena",
+              "count": 30
+            },
+            {
+              "value": "San Bernardino",
+              "count": 28
+            },
+            {
+              "value": "Irvine",
+              "count": 28
+            },
+            {
+              "value": "Anaheim",
+              "count": 28
+            },
+            {
+              "value": "Santa Barbara",
+              "count": 28
+            },
+            {
+              "value": "Modesto",
+              "count": 28
+            },
+            {
+              "value": "Inglewood",
+              "count": 25
+            },
+            {
+              "value": "Santa Monica",
+              "count": 25
+            },
+            {
+              "value": "Torrance",
+              "count": 25
+            },
+            {
+              "value": "Burbank",
+              "count": 25
+            },
+            {
+              "value": "Chula Vista",
+              "count": 25
+            },
+            {
+              "value": "Santa Ana",
+              "count": 24
+            },
+            {
+              "value": "Santa Rosa",
+              "count": 24
+            },
+            {
+              "value": "Van Nuys",
+              "count": 20
+            },
+            {
+              "value": "North Hollywood",
+              "count": 20
+            },
+            {
+              "value": "Escondido",
+              "count": 20
+            },
+            {
+              "value": "Garden Grove",
+              "count": 20
+            },
+            {
+              "value": "Salinas",
+              "count": 20
+            },
+            {
+              "value": "Orange",
+              "count": 20
+            },
+            {
+              "value": "Corona",
+              "count": 20
+            },
+            {
+              "value": "Rancho Cucamonga",
+              "count": 20
+            },
+            {
+              "value": "Moreno Valley",
+              "count": 16
+            },
+            {
+              "value": "Huntington Beach",
+              "count": 16
+            },
+            {
+              "value": "Newport Beach",
+              "count": 16
+            },
+            {
+              "value": "Palmdale",
+              "count": 16
+            },
+            {
+              "value": "Palo Alto",
+              "count": 16
+            },
+            {
+              "value": "San Mateo",
+              "count": 16
+            },
+            {
+              "value": "Concord",
+              "count": 16
+            },
+            {
+              "value": "Fremont",
+              "count": 16
+            },
+            {
+              "value": "Hayward",
+              "count": 16
+            },
+            {
+              "value": "Santa Cruz",
+              "count": 16
+            },
+            {
+              "value": "Vallejo",
+              "count": 16
+            },
+            {
+              "value": "Fullerton",
+              "count": 16
+            },
+            {
+              "value": "Redwood City",
+              "count": 16
+            },
+            {
+              "value": "Beverly Hills",
+              "count": 15
+            },
+            {
+              "value": "Lakewood",
+              "count": 15
+            },
+            {
+              "value": "Covina",
+              "count": 15
+            },
+            {
+              "value": "Ontario",
+              "count": 15
+            },
+            {
+              "value": "Pomona",
+              "count": 15
+            },
+            {
+              "value": "West Covina",
+              "count": 15
+            },
+            {
+              "value": "El Cajon",
+              "count": 15
+            }
+          ],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Zip Code",
+          "declared_type": "int64",
+          "inferred_type": "integer",
+          "semantic_role": "measure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1652,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": 90001.0,
+              "max": 96161.0,
+              "mean": 93521.96464574755,
+              "median": 93552.0,
+              "std": 1865.794555396593,
+              "q1": 92102.0,
+              "q3": 95351.0
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Lat Long",
+          "declared_type": "str",
+          "inferred_type": "string",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1652,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "33.964131, -118.272783",
+                  "count": 5
+                },
+                {
+                  "value": "34.059281, -118.30742",
+                  "count": 5
+                },
+                {
+                  "value": "34.048013, -118.293953",
+                  "count": 5
+                },
+                {
+                  "value": "34.062125, -118.315709",
+                  "count": 5
+                },
+                {
+                  "value": "34.039224, -118.266293",
+                  "count": 5
+                },
+                {
+                  "value": "34.066367, -118.309868",
+                  "count": 5
+                },
+                {
+                  "value": "34.02381, -118.156582",
+                  "count": 5
+                },
+                {
+                  "value": "34.066303, -118.435479",
+                  "count": 5
+                },
+                {
+                  "value": "34.099869, -118.326843",
+                  "count": 5
+                },
+                {
+                  "value": "34.089953, -118.294824",
+                  "count": 5
+                }
+              ]
+            }
+          },
+          "rare_values": [
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            },
+            {
+              "value": "<PHONE_MASKED>",
+              "count": 5
+            }
+          ],
+          "is_pii": true,
+          "pii_categories": [
+            "phone"
+          ],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Latitude",
+          "declared_type": "float64",
+          "inferred_type": "numeric",
+          "semantic_role": "measure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1652,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": 32.555828,
+              "max": 41.962127,
+              "mean": 36.28244138108761,
+              "median": 36.391777,
+              "std": 2.4557225895721184,
+              "q1": 34.030915,
+              "q3": 38.224869
+            }
+          },
+          "rare_values": [],
+          "is_pii": true,
+          "pii_categories": [
+            "phone"
+          ],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Longitude",
+          "declared_type": "float64",
+          "inferred_type": "numeric",
+          "semantic_role": "measure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1651,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": -124.301372,
+              "max": -114.192901,
+              "mean": -119.79888008121539,
+              "median": -119.730885,
+              "std": 2.1578890952575813,
+              "q1": -121.815412,
+              "q3": -118.043237
+            }
+          },
+          "rare_values": [],
+          "is_pii": true,
+          "pii_categories": [
+            "phone"
+          ],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Gender",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "Male",
+                  "count": 3555
+                },
+                {
+                  "value": "Female",
+                  "count": 3488
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Senior Citizen",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 5901
+                },
+                {
+                  "value": "Yes",
+                  "count": 1142
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Partner",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 3641
+                },
+                {
+                  "value": "Yes",
+                  "count": 3402
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Dependents",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 5416
+                },
+                {
+                  "value": "Yes",
+                  "count": 1627
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Tenure Months",
+          "declared_type": "int64",
+          "inferred_type": "integer",
+          "semantic_role": "date",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 73,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": 0.0,
+              "max": 72.0,
+              "mean": 32.37114865824223,
+              "median": 29.0,
+              "std": 24.55948102309446,
+              "q1": 9.0,
+              "q3": 55.0
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Phone Service",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "Yes",
+                  "count": 6361
+                },
+                {
+                  "value": "No",
+                  "count": 682
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": true,
+          "pii_categories": [
+            "phone"
+          ],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Multiple Lines",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 3390
+                },
+                {
+                  "value": "Yes",
+                  "count": 2971
+                },
+                {
+                  "value": "No phone service",
+                  "count": 682
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Internet Service",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "Fiber optic",
+                  "count": 3096
+                },
+                {
+                  "value": "DSL",
+                  "count": 2421
+                },
+                {
+                  "value": "No",
+                  "count": 1526
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Online Security",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 3498
+                },
+                {
+                  "value": "Yes",
+                  "count": 2019
+                },
+                {
+                  "value": "No internet service",
+                  "count": 1526
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Online Backup",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 3088
+                },
+                {
+                  "value": "Yes",
+                  "count": 2429
+                },
+                {
+                  "value": "No internet service",
+                  "count": 1526
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Device Protection",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 3095
+                },
+                {
+                  "value": "Yes",
+                  "count": 2422
+                },
+                {
+                  "value": "No internet service",
+                  "count": 1526
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Tech Support",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 3473
+                },
+                {
+                  "value": "Yes",
+                  "count": 2044
+                },
+                {
+                  "value": "No internet service",
+                  "count": 1526
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Streaming TV",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 2810
+                },
+                {
+                  "value": "Yes",
+                  "count": 2707
+                },
+                {
+                  "value": "No internet service",
+                  "count": 1526
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Streaming Movies",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 2785
+                },
+                {
+                  "value": "Yes",
+                  "count": 2732
+                },
+                {
+                  "value": "No internet service",
+                  "count": 1526
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Contract",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "Month-to-month",
+                  "count": 3875
+                },
+                {
+                  "value": "Two year",
+                  "count": 1695
+                },
+                {
+                  "value": "One year",
+                  "count": 1473
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Paperless Billing",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "Yes",
+                  "count": 4171
+                },
+                {
+                  "value": "No",
+                  "count": 2872
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Payment Method",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 4,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "Electronic check",
+                  "count": 2365
+                },
+                {
+                  "value": "Mailed check",
+                  "count": 1612
+                },
+                {
+                  "value": "Bank transfer (automatic)",
+                  "count": 1544
+                },
+                {
+                  "value": "Credit card (automatic)",
+                  "count": 1522
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Monthly Charges",
+          "declared_type": "float64",
+          "inferred_type": "numeric",
+          "semantic_role": "date",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 1585,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": 18.25,
+              "max": 118.75,
+              "mean": 64.76169246059918,
+              "median": 70.35,
+              "std": 30.090047097678493,
+              "q1": 35.5,
+              "q3": 89.85
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Total Charges",
+          "declared_type": "str",
+          "inferred_type": "numeric",
+          "semantic_role": "measure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 6531,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "20.2",
+                  "count": 11
+                },
+                {
+                  "value": " ",
+                  "count": 11
+                },
+                {
+                  "value": "19.75",
+                  "count": 9
+                },
+                {
+                  "value": "19.9",
+                  "count": 8
+                },
+                {
+                  "value": "19.65",
+                  "count": 8
+                },
+                {
+                  "value": "20.05",
+                  "count": 8
+                },
+                {
+                  "value": "19.55",
+                  "count": 7
+                },
+                {
+                  "value": "45.3",
+                  "count": 7
+                },
+                {
+                  "value": "20.15",
+                  "count": 6
+                },
+                {
+                  "value": "19.45",
+                  "count": 6
+                }
+              ]
+            }
+          },
+          "rare_values": [
+            {
+              "value": "20.2",
+              "count": 11
+            },
+            {
+              "value": " ",
+              "count": 11
+            },
+            {
+              "value": "19.75",
+              "count": 9
+            },
+            {
+              "value": "19.9",
+              "count": 8
+            },
+            {
+              "value": "19.65",
+              "count": 8
+            },
+            {
+              "value": "20.05",
+              "count": 8
+            },
+            {
+              "value": "19.55",
+              "count": 7
+            },
+            {
+              "value": "45.3",
+              "count": 7
+            },
+            {
+              "value": "20.15",
+              "count": 6
+            },
+            {
+              "value": "19.45",
+              "count": 6
+            },
+            {
+              "value": "20.25",
+              "count": 6
+            },
+            {
+              "value": "20.3",
+              "count": 5
+            },
+            {
+              "value": "20.45",
+              "count": 5
+            },
+            {
+              "value": "70.6",
+              "count": 4
+            },
+            {
+              "value": "75.3",
+              "count": 4
+            },
+            {
+              "value": "74.7",
+              "count": 4
+            },
+            {
+              "value": "44.4",
+              "count": 4
+            },
+            {
+              "value": "69.9",
+              "count": 4
+            },
+            {
+              "value": "19.85",
+              "count": 4
+            },
+            {
+              "value": "50.15",
+              "count": 4
+            },
+            {
+              "value": "69.6",
+              "count": 4
+            },
+            {
+              "value": "19.5",
+              "count": 4
+            },
+            {
+              "value": "69.95",
+              "count": 4
+            },
+            {
+              "value": "19.3",
+              "count": 4
+            },
+            {
+              "value": "19.4",
+              "count": 4
+            },
+            {
+              "value": "20.5",
+              "count": 4
+            },
+            {
+              "value": "19.95",
+              "count": 4
+            },
+            {
+              "value": "69.65",
+              "count": 4
+            },
+            {
+              "value": "49.9",
+              "count": 4
+            },
+            {
+              "value": "20.4",
+              "count": 4
+            },
+            {
+              "value": "44",
+              "count": 4
+            },
+            {
+              "value": "20.35",
+              "count": 4
+            },
+            {
+              "value": "19.2",
+              "count": 4
+            },
+            {
+              "value": "70.45",
+              "count": 3
+            },
+            {
+              "value": "24.8",
+              "count": 3
+            },
+            {
+              "value": "84.5",
+              "count": 3
+            },
+            {
+              "value": "80.55",
+              "count": 3
+            },
+            {
+              "value": "69.55",
+              "count": 3
+            },
+            {
+              "value": "74.35",
+              "count": 3
+            },
+            {
+              "value": "85",
+              "count": 3
+            },
+            {
+              "value": "45.7",
+              "count": 3
+            },
+            {
+              "value": "74.6",
+              "count": 3
+            },
+            {
+              "value": "35.9",
+              "count": 3
+            },
+            {
+              "value": "2317.1",
+              "count": 3
+            },
+            {
+              "value": "74.9",
+              "count": 3
+            },
+            {
+              "value": "45.85",
+              "count": 3
+            },
+            {
+              "value": "69.25",
+              "count": 3
+            },
+            {
+              "value": "50.45",
+              "count": 3
+            },
+            {
+              "value": "20.55",
+              "count": 3
+            },
+            {
+              "value": "45.1",
+              "count": 3
+            }
+          ],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Churn Label",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "No",
+                  "count": 5174
+                },
+                {
+                  "value": "Yes",
+                  "count": 1869
+                }
+              ]
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Churn Value",
+          "declared_type": "int64",
+          "inferred_type": "integer",
+          "semantic_role": "measure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": 0.0,
+              "max": 1.0,
+              "mean": 0.2653698707936959,
+              "median": 0.0,
+              "std": 0.441561305121947,
+              "q1": 0.0,
+              "q3": 1.0
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Churn Score",
+          "declared_type": "int64",
+          "inferred_type": "integer",
+          "semantic_role": "measure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 85,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": 5.0,
+              "max": 100.0,
+              "mean": 58.69941786170666,
+              "median": 61.0,
+              "std": 21.525130678490786,
+              "q1": 40.0,
+              "q3": 75.0
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "CLTV",
+          "declared_type": "int64",
+          "inferred_type": "integer",
+          "semantic_role": "measure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3438,
+          "stats": {
+            "count": 7043,
+            "numeric": {
+              "min": 2003.0,
+              "max": 6500.0,
+              "mean": 4400.295754650007,
+              "median": 4527.0,
+              "std": 1183.0571519525197,
+              "q1": 3469.0,
+              "q3": 5380.5
+            }
+          },
+          "rare_values": [],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        },
+        {
+          "name": "Churn Reason",
+          "declared_type": "str",
+          "inferred_type": "categorical",
+          "semantic_role": "dimension",
+          "missing_count": 5174,
+          "missing_pct": 73.4630129206304,
+          "cardinality": 20,
+          "stats": {
+            "count": 7043,
+            "categorical": {
+              "top_values": [
+                {
+                  "value": "Attitude of support person",
+                  "count": 192
+                },
+                {
+                  "value": "Competitor offered higher download speeds",
+                  "count": 189
+                },
+                {
+                  "value": "Competitor offered more data",
+                  "count": 162
+                },
+                {
+                  "value": "Don't know",
+                  "count": 154
+                },
+                {
+                  "value": "Competitor made better offer",
+                  "count": 140
+                },
+                {
+                  "value": "Attitude of service provider",
+                  "count": 135
+                },
+                {
+                  "value": "Competitor had better devices",
+                  "count": 130
+                },
+                {
+                  "value": "Network reliability",
+                  "count": 103
+                },
+                {
+                  "value": "Product dissatisfaction",
+                  "count": 102
+                },
+                {
+                  "value": "Price too high",
+                  "count": 98
+                }
+              ]
+            }
+          },
+          "rare_values": [
+            {
+              "value": "Deceased",
+              "count": 6
+            }
+          ],
+          "is_pii": false,
+          "pii_categories": [],
+          "anomaly_count": 0,
+          "anomaly_examples": []
+        }
+      ],
+      "duplicates": {
+        "exact_count": 0,
+        "exact_pct": 0.0,
+        "business_key": [],
+        "business_key_duplicate_count": 0,
+        "business_key_duplicate_pct": 0.0
+      }
+    }
+  ],
+  "relationships": [],
+  "issues": [
+    {
+      "id": "telco.Churn Reason.missing",
+      "severity": "high",
+      "table": "telco",
+      "column": "Churn Reason",
+      "rule": "missing_values",
+      "evidence": "5174 valeur(s) manquante(s), soit 73.46% des lignes profilées.",
+      "affected_rows": 5174,
+      "suggested_action": "Évaluer une règle métier de traitement des valeurs manquantes avant l'ETL."
+    }
+  ],
+  "llm_summary": "Tables profilées : telco : 7043 ligne(s), 33 colonne(s)\nProblèmes prioritaires : high — telco.Churn Reason : missing_values. 5174 valeur(s) manquante(s), soit 73.46% des lignes profilées. Action : Évaluer une règle métier de traitement des valeurs manquantes avant l'ETL.",
+  "status": "warning",
+  "trace": [
+    {
+      "timestamp": "2026-10-15T19:38:30.410848",
+      "tool": "load_source",
+      "parameters": {
+        "source_name": "telco",
+        "source_type": "csv",
+        "sampled": false,
+        "sample_rows": 7043
+      },
+      "duration_ms": 36.20039997622371
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+pydantic
+langgraph
+requests
+sqlalchemy
+pytest
